@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "LivrariaSystem/1.0.0": {
+        "runtime": {
+          "LivrariaSystem.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LivrariaSystem/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
