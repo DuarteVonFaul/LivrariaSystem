@@ -17,3 +17,22 @@ C:\Users\g_dua\source\repos\LivrariaSystem\LivrariaSystem\obj\Debug\net8.0-windo
 C:\Users\g_dua\source\repos\LivrariaSystem\LivrariaSystem\obj\Debug\net8.0-windows\LivrariaSystem.pdb
 C:\Users\g_dua\source\repos\LivrariaSystem\LivrariaSystem\obj\Debug\net8.0-windows\LivrariaSystem.genruntimeconfig.cache
 C:\Users\g_dua\source\repos\LivrariaSystem\LivrariaSystem\obj\Debug\net8.0-windows\ref\LivrariaSystem.dll
+C:\Users\SGE Desenvolvimento\Desktop\duarte\LivrariaSystem\LivrariaSystem\bin\Debug\net8.0-windows\LivrariaSystem.exe
+C:\Users\SGE Desenvolvimento\Desktop\duarte\LivrariaSystem\LivrariaSystem\bin\Debug\net8.0-windows\LivrariaSystem.deps.json
+C:\Users\SGE Desenvolvimento\Desktop\duarte\LivrariaSystem\LivrariaSystem\bin\Debug\net8.0-windows\LivrariaSystem.runtimeconfig.json
+C:\Users\SGE Desenvolvimento\Desktop\duarte\LivrariaSystem\LivrariaSystem\bin\Debug\net8.0-windows\LivrariaSystem.dll
+C:\Users\SGE Desenvolvimento\Desktop\duarte\LivrariaSystem\LivrariaSystem\bin\Debug\net8.0-windows\LivrariaSystem.pdb
+C:\Users\SGE Desenvolvimento\Desktop\duarte\LivrariaSystem\LivrariaSystem\obj\Debug\net8.0-windows\LivrariaSystem.Properties.Resources.resources
+C:\Users\SGE Desenvolvimento\Desktop\duarte\LivrariaSystem\LivrariaSystem\obj\Debug\net8.0-windows\LivrariaSystem.views.cadastro.CadastroLivro.resources
+C:\Users\SGE Desenvolvimento\Desktop\duarte\LivrariaSystem\LivrariaSystem\obj\Debug\net8.0-windows\LivrariaSystem.home.resources
+C:\Users\SGE Desenvolvimento\Desktop\duarte\LivrariaSystem\LivrariaSystem\obj\Debug\net8.0-windows\LivrariaSystem.csproj.GenerateResource.cache
+C:\Users\SGE Desenvolvimento\Desktop\duarte\LivrariaSystem\LivrariaSystem\obj\Debug\net8.0-windows\LivrariaSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SGE Desenvolvimento\Desktop\duarte\LivrariaSystem\LivrariaSystem\obj\Debug\net8.0-windows\LivrariaSystem.AssemblyInfoInputs.cache
+C:\Users\SGE Desenvolvimento\Desktop\duarte\LivrariaSystem\LivrariaSystem\obj\Debug\net8.0-windows\LivrariaSystem.AssemblyInfo.cs
+C:\Users\SGE Desenvolvimento\Desktop\duarte\LivrariaSystem\LivrariaSystem\obj\Debug\net8.0-windows\LivrariaSystem.csproj.CoreCompileInputs.cache
+C:\Users\SGE Desenvolvimento\Desktop\duarte\LivrariaSystem\LivrariaSystem\obj\Debug\net8.0-windows\LivrariaSystem.sourcelink.json
+C:\Users\SGE Desenvolvimento\Desktop\duarte\LivrariaSystem\LivrariaSystem\obj\Debug\net8.0-windows\LivrariaSystem.dll
+C:\Users\SGE Desenvolvimento\Desktop\duarte\LivrariaSystem\LivrariaSystem\obj\Debug\net8.0-windows\refint\LivrariaSystem.dll
+C:\Users\SGE Desenvolvimento\Desktop\duarte\LivrariaSystem\LivrariaSystem\obj\Debug\net8.0-windows\LivrariaSystem.pdb
+C:\Users\SGE Desenvolvimento\Desktop\duarte\LivrariaSystem\LivrariaSystem\obj\Debug\net8.0-windows\LivrariaSystem.genruntimeconfig.cache
+C:\Users\SGE Desenvolvimento\Desktop\duarte\LivrariaSystem\LivrariaSystem\obj\Debug\net8.0-windows\ref\LivrariaSystem.dll

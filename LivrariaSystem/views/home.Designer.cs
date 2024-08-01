@@ -1,6 +1,6 @@
 ﻿namespace LivrariaSystem
 {
-    partial class home
+    partial class Home
     {
         /// <summary>
         ///  Required designer variable.
@@ -30,13 +30,14 @@
         {
             SuspendLayout();
             // 
-            // home
+            // Home
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(914, 600);
             IsMdiContainer = true;
-            Name = "home";
+            Margin = new Padding(3, 4, 3, 4);
+            Name = "Home";
             Text = "LivrariaSystem";
             Load += home_Load;
             ResumeLayout(false);

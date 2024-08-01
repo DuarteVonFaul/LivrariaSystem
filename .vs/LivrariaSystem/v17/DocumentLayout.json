@@ -1,34 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\g_dua\\source\\repos\\LivrariaSystem\\",
+  "WorkspaceRootPath": "C:\\Users\\SGE Desenvolvimento\\Desktop\\duarte\\LivrariaSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0A1F1D4F-AE54-45D0-8651-152AAC4A9574}|LivrariaSystem\\LivrariaSystem.csproj|c:\\users\\g_dua\\source\\repos\\livrariasystem\\livrariasystem\\views\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A1F1D4F-AE54-45D0-8651-152AAC4A9574}|LivrariaSystem\\LivrariaSystem.csproj|solutionrelative:livrariasystem\\views\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A1F1D4F-AE54-45D0-8651-152AAC4A9574}|LivrariaSystem\\LivrariaSystem.csproj|c:\\users\\sge desenvolvimento\\desktop\\duarte\\livrariasystem\\livrariasystem\\utils\\requestmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A1F1D4F-AE54-45D0-8651-152AAC4A9574}|LivrariaSystem\\LivrariaSystem.csproj|solutionrelative:livrariasystem\\utils\\requestmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A1F1D4F-AE54-45D0-8651-152AAC4A9574}|LivrariaSystem\\LivrariaSystem.csproj|c:\\users\\g_dua\\source\\repos\\livrariasystem\\livrariasystem\\views\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0A1F1D4F-AE54-45D0-8651-152AAC4A9574}|LivrariaSystem\\LivrariaSystem.csproj|solutionrelative:livrariasystem\\views\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0A1F1D4F-AE54-45D0-8651-152AAC4A9574}|LivrariaSystem\\LivrariaSystem.csproj|c:\\users\\sge desenvolvimento\\desktop\\duarte\\livrariasystem\\livrariasystem\\models\\response\\andressresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A1F1D4F-AE54-45D0-8651-152AAC4A9574}|LivrariaSystem\\LivrariaSystem.csproj|solutionrelative:livrariasystem\\models\\response\\andressresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A1F1D4F-AE54-45D0-8651-152AAC4A9574}|LivrariaSystem\\LivrariaSystem.csproj|c:\\users\\g_dua\\source\\repos\\livrariasystem\\livrariasystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A1F1D4F-AE54-45D0-8651-152AAC4A9574}|LivrariaSystem\\LivrariaSystem.csproj|solutionrelative:livrariasystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A1F1D4F-AE54-45D0-8651-152AAC4A9574}|LivrariaSystem\\LivrariaSystem.csproj|c:\\users\\sge desenvolvimento\\desktop\\duarte\\livrariasystem\\livrariasystem\\resources\\postalcoderesource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A1F1D4F-AE54-45D0-8651-152AAC4A9574}|LivrariaSystem\\LivrariaSystem.csproj|solutionrelative:livrariasystem\\resources\\postalcoderesource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A1F1D4F-AE54-45D0-8651-152AAC4A9574}|LivrariaSystem\\LivrariaSystem.csproj|c:\\users\\g_dua\\source\\repos\\livrariasystem\\livrariasystem\\views\\cadastro\\cadastrolivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{0A1F1D4F-AE54-45D0-8651-152AAC4A9574}|LivrariaSystem\\LivrariaSystem.csproj|c:\\users\\sge desenvolvimento\\desktop\\duarte\\livrariasystem\\livrariasystem\\utils\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A1F1D4F-AE54-45D0-8651-152AAC4A9574}|LivrariaSystem\\LivrariaSystem.csproj|solutionrelative:livrariasystem\\utils\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A1F1D4F-AE54-45D0-8651-152AAC4A9574}|LivrariaSystem\\LivrariaSystem.csproj|c:\\users\\sge desenvolvimento\\desktop\\duarte\\livrariasystem\\livrariasystem\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A1F1D4F-AE54-45D0-8651-152AAC4A9574}|LivrariaSystem\\LivrariaSystem.csproj|solutionrelative:livrariasystem\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A1F1D4F-AE54-45D0-8651-152AAC4A9574}|LivrariaSystem\\LivrariaSystem.csproj|C:\\Users\\SGE Desenvolvimento\\Desktop\\duarte\\LivrariaSystem\\livrariasystem\\views\\cadastro\\cadastrolivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0A1F1D4F-AE54-45D0-8651-152AAC4A9574}|LivrariaSystem\\LivrariaSystem.csproj|solutionrelative:livrariasystem\\views\\cadastro\\cadastrolivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A1F1D4F-AE54-45D0-8651-152AAC4A9574}|LivrariaSystem\\LivrariaSystem.csproj|c:\\users\\g_dua\\source\\repos\\livrariasystem\\livrariasystem\\views\\cadastro\\cadastrolivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A1F1D4F-AE54-45D0-8651-152AAC4A9574}|LivrariaSystem\\LivrariaSystem.csproj|solutionrelative:livrariasystem\\views\\cadastro\\cadastrolivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A1F1D4F-AE54-45D0-8651-152AAC4A9574}|LivrariaSystem\\LivrariaSystem.csproj|c:\\users\\g_dua\\source\\repos\\livrariasystem\\livrariasystem\\livrariasystem.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{0A1F1D4F-AE54-45D0-8651-152AAC4A9574}|LivrariaSystem\\LivrariaSystem.csproj|solutionrelative:livrariasystem\\livrariasystem.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A1F1D4F-AE54-45D0-8651-152AAC4A9574}|LivrariaSystem\\LivrariaSystem.csproj|C:\\Users\\g_dua\\source\\repos\\LivrariaSystem\\livrariasystem\\views\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0A1F1D4F-AE54-45D0-8651-152AAC4A9574}|LivrariaSystem\\LivrariaSystem.csproj|solutionrelative:livrariasystem\\views\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0A1F1D4F-AE54-45D0-8651-152AAC4A9574}|LivrariaSystem\\LivrariaSystem.csproj|c:\\users\\sge desenvolvimento\\desktop\\duarte\\livrariasystem\\livrariasystem\\utils\\urls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A1F1D4F-AE54-45D0-8651-152AAC4A9574}|LivrariaSystem\\LivrariaSystem.csproj|solutionrelative:livrariasystem\\utils\\urls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,94 +38,91 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\g_dua\\source\\repos\\LivrariaSystem\\LivrariaSystem\\Program.cs",
-              "RelativeDocumentMoniker": "LivrariaSystem\\Program.cs",
-              "ToolTip": "C:\\Users\\g_dua\\source\\repos\\LivrariaSystem\\LivrariaSystem\\Program.cs",
-              "RelativeToolTip": "LivrariaSystem\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T01:44:41.174Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\g_dua\\source\\repos\\LivrariaSystem\\LivrariaSystem\\views\\Form1.cs",
-              "RelativeDocumentMoniker": "LivrariaSystem\\views\\Form1.cs",
-              "ToolTip": "C:\\Users\\g_dua\\source\\repos\\LivrariaSystem\\LivrariaSystem\\views\\Form1.cs",
-              "RelativeToolTip": "LivrariaSystem\\views\\Form1.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAA3wBoAAAAbAAAA",
+              "Title": "RequestMethod.cs",
+              "DocumentMoniker": "C:\\Users\\SGE Desenvolvimento\\Desktop\\duarte\\LivrariaSystem\\LivrariaSystem\\utils\\RequestMethod.cs",
+              "RelativeDocumentMoniker": "LivrariaSystem\\utils\\RequestMethod.cs",
+              "ToolTip": "C:\\Users\\SGE Desenvolvimento\\Desktop\\duarte\\LivrariaSystem\\LivrariaSystem\\utils\\RequestMethod.cs",
+              "RelativeToolTip": "LivrariaSystem\\utils\\RequestMethod.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T01:35:58.61Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\g_dua\\source\\repos\\LivrariaSystem\\LivrariaSystem\\views\\Form1.cs",
-              "RelativeDocumentMoniker": "LivrariaSystem\\views\\Form1.cs",
-              "ToolTip": "C:\\Users\\g_dua\\source\\repos\\LivrariaSystem\\LivrariaSystem\\views\\Form1.cs [Projeto]",
-              "RelativeToolTip": "LivrariaSystem\\views\\Form1.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T01:35:30.775Z",
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LivrariaSystem",
-              "DocumentMoniker": "C:\\Users\\g_dua\\source\\repos\\LivrariaSystem\\LivrariaSystem\\LivrariaSystem.csproj",
-              "RelativeDocumentMoniker": "LivrariaSystem\\LivrariaSystem.csproj",
-              "ToolTip": "C:\\Users\\g_dua\\source\\repos\\LivrariaSystem\\LivrariaSystem\\LivrariaSystem.csproj",
-              "RelativeToolTip": "LivrariaSystem\\LivrariaSystem.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-29T01:28:17.105Z",
+              "WhenOpened": "2024-08-01T14:47:40.497Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "CadastroLivro.cs",
-              "DocumentMoniker": "C:\\Users\\g_dua\\source\\repos\\LivrariaSystem\\LivrariaSystem\\views\\cadastro\\CadastroLivro.cs",
-              "RelativeDocumentMoniker": "LivrariaSystem\\views\\cadastro\\CadastroLivro.cs",
-              "ToolTip": "C:\\Users\\g_dua\\source\\repos\\LivrariaSystem\\LivrariaSystem\\views\\cadastro\\CadastroLivro.cs",
-              "RelativeToolTip": "LivrariaSystem\\views\\cadastro\\CadastroLivro.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAawBMAAAAAAAAA",
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\SGE Desenvolvimento\\Desktop\\duarte\\LivrariaSystem\\LivrariaSystem\\models\\Book.cs",
+              "RelativeDocumentMoniker": "LivrariaSystem\\models\\Book.cs",
+              "ToolTip": "C:\\Users\\SGE Desenvolvimento\\Desktop\\duarte\\LivrariaSystem\\LivrariaSystem\\models\\Book.cs",
+              "RelativeToolTip": "LivrariaSystem\\models\\Book.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAowA0AAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T01:15:04.475Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-01T14:08:53.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CadastroLivro.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\SGE Desenvolvimento\\Desktop\\duarte\\LivrariaSystem\\LivrariaSystem\\views\\cadastro\\CadastroLivro.cs",
+              "RelativeDocumentMoniker": "LivrariaSystem\\views\\cadastro\\CadastroLivro.cs",
+              "ToolTip": "C:\\Users\\SGE Desenvolvimento\\Desktop\\duarte\\LivrariaSystem\\LivrariaSystem\\views\\cadastro\\CadastroLivro.cs [Projeto]",
+              "RelativeToolTip": "LivrariaSystem\\views\\cadastro\\CadastroLivro.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T14:08:48.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AndressResponse.cs",
+              "DocumentMoniker": "C:\\Users\\SGE Desenvolvimento\\Desktop\\duarte\\LivrariaSystem\\LivrariaSystem\\models\\response\\AndressResponse.cs",
+              "RelativeDocumentMoniker": "LivrariaSystem\\models\\response\\AndressResponse.cs",
+              "ToolTip": "C:\\Users\\SGE Desenvolvimento\\Desktop\\duarte\\LivrariaSystem\\LivrariaSystem\\models\\response\\AndressResponse.cs",
+              "RelativeToolTip": "LivrariaSystem\\models\\response\\AndressResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T14:06:36.209Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CadastroLivro.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\g_dua\\source\\repos\\LivrariaSystem\\LivrariaSystem\\views\\cadastro\\CadastroLivro.cs",
-              "RelativeDocumentMoniker": "LivrariaSystem\\views\\cadastro\\CadastroLivro.cs",
-              "ToolTip": "C:\\Users\\g_dua\\source\\repos\\LivrariaSystem\\LivrariaSystem\\views\\cadastro\\CadastroLivro.cs [Projeto]",
-              "RelativeToolTip": "LivrariaSystem\\views\\cadastro\\CadastroLivro.cs [Projeto]",
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\SGE Desenvolvimento\\Desktop\\duarte\\LivrariaSystem\\LivrariaSystem\\utils\\Client.cs",
+              "RelativeDocumentMoniker": "LivrariaSystem\\utils\\Client.cs",
+              "ToolTip": "C:\\Users\\SGE Desenvolvimento\\Desktop\\duarte\\LivrariaSystem\\LivrariaSystem\\utils\\Client.cs",
+              "RelativeToolTip": "LivrariaSystem\\utils\\Client.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T01:08:01.686Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2024-08-01T13:58:57.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PostalCodeResource.cs",
+              "DocumentMoniker": "C:\\Users\\SGE Desenvolvimento\\Desktop\\duarte\\LivrariaSystem\\LivrariaSystem\\resources\\PostalCodeResource.cs",
+              "RelativeDocumentMoniker": "LivrariaSystem\\resources\\PostalCodeResource.cs",
+              "ToolTip": "C:\\Users\\SGE Desenvolvimento\\Desktop\\duarte\\LivrariaSystem\\LivrariaSystem\\resources\\PostalCodeResource.cs",
+              "RelativeToolTip": "LivrariaSystem\\resources\\PostalCodeResource.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA2wBoAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T13:57:50.121Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Home.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\g_dua\\source\\repos\\LivrariaSystem\\LivrariaSystem\\views\\Home.cs",
-              "RelativeDocumentMoniker": "LivrariaSystem\\views\\Home.cs",
-              "ToolTip": "C:\\Users\\g_dua\\source\\repos\\LivrariaSystem\\LivrariaSystem\\views\\Home.cs [Projeto]",
-              "RelativeToolTip": "LivrariaSystem\\views\\Home.cs [Projeto]",
+              "Title": "Urls.cs",
+              "DocumentMoniker": "C:\\Users\\SGE Desenvolvimento\\Desktop\\duarte\\LivrariaSystem\\LivrariaSystem\\utils\\Urls.cs",
+              "RelativeDocumentMoniker": "LivrariaSystem\\utils\\Urls.cs",
+              "ToolTip": "C:\\Users\\SGE Desenvolvimento\\Desktop\\duarte\\LivrariaSystem\\LivrariaSystem\\utils\\Urls.cs",
+              "RelativeToolTip": "LivrariaSystem\\utils\\Urls.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T01:05:21.409Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2024-08-01T14:02:16.723Z"
             }
           ]
         }

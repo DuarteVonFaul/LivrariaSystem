@@ -46,46 +46,51 @@
             // comboBox1
             // 
             comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(41, 211);
+            comboBox1.Location = new Point(47, 281);
+            comboBox1.Margin = new Padding(3, 4, 3, 4);
             comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(180, 23);
+            comboBox1.Size = new Size(205, 28);
             comboBox1.TabIndex = 0;
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(41, 37);
+            textBox1.Location = new Point(47, 49);
+            textBox1.Margin = new Padding(3, 4, 3, 4);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(307, 23);
+            textBox1.Size = new Size(350, 27);
             textBox1.TabIndex = 1;
             // 
             // dateTimePicker1
             // 
-            dateTimePicker1.Location = new Point(41, 149);
+            dateTimePicker1.Location = new Point(47, 199);
+            dateTimePicker1.Margin = new Padding(3, 4, 3, 4);
             dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(180, 23);
+            dateTimePicker1.Size = new Size(205, 27);
             dateTimePicker1.TabIndex = 2;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(41, 93);
+            textBox2.Location = new Point(47, 124);
+            textBox2.Margin = new Padding(3, 4, 3, 4);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(307, 23);
+            textBox2.Size = new Size(350, 27);
             textBox2.TabIndex = 3;
             // 
             // textBox3
             // 
-            textBox3.Location = new Point(237, 149);
+            textBox3.Location = new Point(271, 199);
+            textBox3.Margin = new Padding(3, 4, 3, 4);
             textBox3.Name = "textBox3";
-            textBox3.Size = new Size(111, 23);
+            textBox3.Size = new Size(126, 27);
             textBox3.TabIndex = 4;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 12F);
-            label1.Location = new Point(41, 13);
+            label1.Location = new Point(47, 17);
             label1.Name = "label1";
-            label1.Size = new Size(114, 21);
+            label1.Size = new Size(143, 28);
             label1.TabIndex = 5;
             label1.Text = "Nome do Livro";
             // 
@@ -93,9 +98,9 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 12F);
-            label2.Location = new Point(41, 69);
+            label2.Location = new Point(47, 92);
             label2.Name = "label2";
-            label2.Size = new Size(49, 21);
+            label2.Size = new Size(62, 28);
             label2.TabIndex = 6;
             label2.Text = "Autor";
             // 
@@ -103,9 +108,9 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 12F);
-            label3.Location = new Point(41, 187);
+            label3.Location = new Point(47, 249);
             label3.Name = "label3";
-            label3.Size = new Size(61, 21);
+            label3.Size = new Size(76, 28);
             label3.TabIndex = 7;
             label3.Text = "Genero";
             // 
@@ -113,9 +118,9 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 12F);
-            label4.Location = new Point(237, 125);
+            label4.Location = new Point(271, 167);
             label4.Name = "label4";
-            label4.Size = new Size(82, 21);
+            label4.Size = new Size(102, 28);
             label4.TabIndex = 8;
             label4.Text = "N. Paginas";
             // 
@@ -123,44 +128,48 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 12F);
-            label5.Location = new Point(41, 125);
+            label5.Location = new Point(47, 167);
             label5.Name = "label5";
-            label5.Size = new Size(152, 21);
+            label5.Size = new Size(191, 28);
             label5.TabIndex = 9;
             label5.Text = "Data de Lançamento";
             // 
             // button1
             // 
-            button1.Location = new Point(237, 210);
+            button1.Location = new Point(271, 280);
+            button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
-            button1.Size = new Size(111, 23);
+            button1.Size = new Size(127, 31);
             button1.TabIndex = 10;
             button1.Text = "Adicionar Genero";
             button1.UseVisualStyleBackColor = true;
             // 
             // listView1
             // 
-            listView1.Location = new Point(41, 239);
+            listView1.Location = new Point(47, 319);
+            listView1.Margin = new Padding(3, 4, 3, 4);
             listView1.Name = "listView1";
-            listView1.Size = new Size(307, 139);
+            listView1.Size = new Size(350, 184);
             listView1.TabIndex = 11;
             listView1.UseCompatibleStateImageBehavior = false;
             // 
             // button2
             // 
             button2.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button2.Location = new Point(116, 402);
+            button2.Location = new Point(133, 536);
+            button2.Margin = new Padding(3, 4, 3, 4);
             button2.Name = "button2";
-            button2.Size = new Size(156, 36);
+            button2.Size = new Size(178, 48);
             button2.TabIndex = 12;
             button2.Text = "Cadastrar";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // CadastroLivro
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(395, 450);
+            ClientSize = new Size(451, 600);
             Controls.Add(button2);
             Controls.Add(listView1);
             Controls.Add(button1);
@@ -174,6 +183,7 @@
             Controls.Add(dateTimePicker1);
             Controls.Add(textBox1);
             Controls.Add(comboBox1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "CadastroLivro";
             Text = "CadastroLivro";
             ResumeLayout(false);

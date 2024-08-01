@@ -4,9 +4,6 @@
     <Compile Update="views\cadastro\CadastroLivro.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="views\Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="views\Home.cs">
       <SubType>Form</SubType>
     </Compile>
