@@ -36,3 +36,23 @@ C:\Users\SGE Desenvolvimento\Desktop\duarte\LivrariaSystem\LivrariaSystem\obj\De
 C:\Users\SGE Desenvolvimento\Desktop\duarte\LivrariaSystem\LivrariaSystem\obj\Debug\net8.0-windows\LivrariaSystem.pdb
 C:\Users\SGE Desenvolvimento\Desktop\duarte\LivrariaSystem\LivrariaSystem\obj\Debug\net8.0-windows\LivrariaSystem.genruntimeconfig.cache
 C:\Users\SGE Desenvolvimento\Desktop\duarte\LivrariaSystem\LivrariaSystem\obj\Debug\net8.0-windows\ref\LivrariaSystem.dll
+F:\faculdade\LivrariaSystem\LivrariaSystem\obj\Debug\net8.0-windows\LivrariaSystem.Properties.Resources.resources
+F:\faculdade\LivrariaSystem\LivrariaSystem\obj\Debug\net8.0-windows\LivrariaSystem.views.cadastro.CadastroLeitor.resources
+F:\faculdade\LivrariaSystem\LivrariaSystem\obj\Debug\net8.0-windows\LivrariaSystem.views.cadastro.CadastroLivro.resources
+F:\faculdade\LivrariaSystem\LivrariaSystem\obj\Debug\net8.0-windows\LivrariaSystem.Home.resources
+F:\faculdade\LivrariaSystem\LivrariaSystem\obj\Debug\net8.0-windows\LivrariaSystem.csproj.GenerateResource.cache
+F:\faculdade\LivrariaSystem\LivrariaSystem\obj\Debug\net8.0-windows\LivrariaSystem.GeneratedMSBuildEditorConfig.editorconfig
+F:\faculdade\LivrariaSystem\LivrariaSystem\obj\Debug\net8.0-windows\LivrariaSystem.AssemblyInfoInputs.cache
+F:\faculdade\LivrariaSystem\LivrariaSystem\obj\Debug\net8.0-windows\LivrariaSystem.AssemblyInfo.cs
+F:\faculdade\LivrariaSystem\LivrariaSystem\obj\Debug\net8.0-windows\LivrariaSystem.csproj.CoreCompileInputs.cache
+F:\faculdade\LivrariaSystem\LivrariaSystem\obj\Debug\net8.0-windows\LivrariaSystem.sourcelink.json
+F:\faculdade\LivrariaSystem\LivrariaSystem\obj\Debug\net8.0-windows\LivrariaSystem.dll
+F:\faculdade\LivrariaSystem\LivrariaSystem\obj\Debug\net8.0-windows\refint\LivrariaSystem.dll
+F:\faculdade\LivrariaSystem\LivrariaSystem\obj\Debug\net8.0-windows\LivrariaSystem.pdb
+F:\faculdade\LivrariaSystem\LivrariaSystem\bin\Debug\net8.0-windows\LivrariaSystem.exe
+F:\faculdade\LivrariaSystem\LivrariaSystem\bin\Debug\net8.0-windows\LivrariaSystem.deps.json
+F:\faculdade\LivrariaSystem\LivrariaSystem\bin\Debug\net8.0-windows\LivrariaSystem.runtimeconfig.json
+F:\faculdade\LivrariaSystem\LivrariaSystem\bin\Debug\net8.0-windows\LivrariaSystem.dll
+F:\faculdade\LivrariaSystem\LivrariaSystem\bin\Debug\net8.0-windows\LivrariaSystem.pdb
+F:\faculdade\LivrariaSystem\LivrariaSystem\obj\Debug\net8.0-windows\LivrariaSystem.genruntimeconfig.cache
+F:\faculdade\LivrariaSystem\LivrariaSystem\obj\Debug\net8.0-windows\ref\LivrariaSystem.dll

@@ -4,7 +4,13 @@
     <Compile Update="views\cadastro\CadastroLivro.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="views\cadastro\CadastroLeitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="views\Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="views\modal\CartaoLeitor.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

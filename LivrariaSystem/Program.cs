@@ -1,5 +1,7 @@
 
 
+using LivrariaSystem.views.cadastro;
+
 namespace LivrariaSystem
 {
     internal static class Program
@@ -13,7 +15,7 @@ namespace LivrariaSystem
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Home());
+            Application.Run(new CadastroLeitor());
         }
     }
 }
