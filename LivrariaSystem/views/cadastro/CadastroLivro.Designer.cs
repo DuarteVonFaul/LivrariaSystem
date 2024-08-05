@@ -28,69 +28,64 @@
         /// </summary>
         private void InitializeComponent()
         {
-            comboBox1 = new ComboBox();
-            textBox1 = new TextBox();
-            dateTimePicker1 = new DateTimePicker();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
+            comboBoxGener = new ComboBox();
+            txtBoxName = new TextBox();
+            dtTimeDate = new DateTimePicker();
+            txtBoxAuthor = new TextBox();
+            txtBoxNumPag = new TextBox();
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
             label4 = new Label();
             label5 = new Label();
             button1 = new Button();
-            listView1 = new ListView();
+            listViewGeners = new ListView();
             button2 = new Button();
             SuspendLayout();
             // 
-            // comboBox1
+            // comboBoxGener
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(47, 281);
-            comboBox1.Margin = new Padding(3, 4, 3, 4);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(205, 28);
-            comboBox1.TabIndex = 0;
+            comboBoxGener.FormattingEnabled = true;
+            comboBoxGener.Location = new Point(41, 211);
+            comboBoxGener.Name = "comboBoxGener";
+            comboBoxGener.Size = new Size(180, 23);
+            comboBoxGener.TabIndex = 0;
             // 
-            // textBox1
+            // txtBoxName
             // 
-            textBox1.Location = new Point(47, 49);
-            textBox1.Margin = new Padding(3, 4, 3, 4);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(350, 27);
-            textBox1.TabIndex = 1;
+            txtBoxName.Location = new Point(41, 37);
+            txtBoxName.Name = "txtBoxName";
+            txtBoxName.Size = new Size(307, 23);
+            txtBoxName.TabIndex = 1;
             // 
-            // dateTimePicker1
+            // dtTimeDate
             // 
-            dateTimePicker1.Location = new Point(47, 199);
-            dateTimePicker1.Margin = new Padding(3, 4, 3, 4);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(205, 27);
-            dateTimePicker1.TabIndex = 2;
+            dtTimeDate.Location = new Point(41, 149);
+            dtTimeDate.Name = "dtTimeDate";
+            dtTimeDate.Size = new Size(180, 23);
+            dtTimeDate.TabIndex = 2;
             // 
-            // textBox2
+            // txtBoxAuthor
             // 
-            textBox2.Location = new Point(47, 124);
-            textBox2.Margin = new Padding(3, 4, 3, 4);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(350, 27);
-            textBox2.TabIndex = 3;
+            txtBoxAuthor.Location = new Point(41, 93);
+            txtBoxAuthor.Name = "txtBoxAuthor";
+            txtBoxAuthor.Size = new Size(307, 23);
+            txtBoxAuthor.TabIndex = 3;
             // 
-            // textBox3
+            // txtBoxNumPag
             // 
-            textBox3.Location = new Point(271, 199);
-            textBox3.Margin = new Padding(3, 4, 3, 4);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(126, 27);
-            textBox3.TabIndex = 4;
+            txtBoxNumPag.Location = new Point(237, 149);
+            txtBoxNumPag.Name = "txtBoxNumPag";
+            txtBoxNumPag.Size = new Size(111, 23);
+            txtBoxNumPag.TabIndex = 4;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 12F);
-            label1.Location = new Point(47, 17);
+            label1.Location = new Point(41, 13);
             label1.Name = "label1";
-            label1.Size = new Size(143, 28);
+            label1.Size = new Size(114, 21);
             label1.TabIndex = 5;
             label1.Text = "Nome do Livro";
             // 
@@ -98,9 +93,9 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 12F);
-            label2.Location = new Point(47, 92);
+            label2.Location = new Point(41, 69);
             label2.Name = "label2";
-            label2.Size = new Size(62, 28);
+            label2.Size = new Size(49, 21);
             label2.TabIndex = 6;
             label2.Text = "Autor";
             // 
@@ -108,9 +103,9 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 12F);
-            label3.Location = new Point(47, 249);
+            label3.Location = new Point(41, 187);
             label3.Name = "label3";
-            label3.Size = new Size(76, 28);
+            label3.Size = new Size(61, 21);
             label3.TabIndex = 7;
             label3.Text = "Genero";
             // 
@@ -118,9 +113,9 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 12F);
-            label4.Location = new Point(271, 167);
+            label4.Location = new Point(237, 125);
             label4.Name = "label4";
-            label4.Size = new Size(102, 28);
+            label4.Size = new Size(82, 21);
             label4.TabIndex = 8;
             label4.Text = "N. Paginas";
             // 
@@ -128,38 +123,37 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 12F);
-            label5.Location = new Point(47, 167);
+            label5.Location = new Point(41, 125);
             label5.Name = "label5";
-            label5.Size = new Size(191, 28);
+            label5.Size = new Size(152, 21);
             label5.TabIndex = 9;
             label5.Text = "Data de Lançamento";
             // 
             // button1
             // 
-            button1.Location = new Point(271, 280);
-            button1.Margin = new Padding(3, 4, 3, 4);
+            button1.Location = new Point(237, 210);
             button1.Name = "button1";
-            button1.Size = new Size(127, 31);
+            button1.Size = new Size(111, 23);
             button1.TabIndex = 10;
             button1.Text = "Adicionar Genero";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
-            // listView1
+            // listViewGeners
             // 
-            listView1.Location = new Point(47, 319);
-            listView1.Margin = new Padding(3, 4, 3, 4);
-            listView1.Name = "listView1";
-            listView1.Size = new Size(350, 184);
-            listView1.TabIndex = 11;
-            listView1.UseCompatibleStateImageBehavior = false;
+            listViewGeners.Location = new Point(41, 239);
+            listViewGeners.Name = "listViewGeners";
+            listViewGeners.Size = new Size(307, 139);
+            listViewGeners.TabIndex = 11;
+            listViewGeners.UseCompatibleStateImageBehavior = false;
+            listViewGeners.View = View.Tile;
             // 
             // button2
             // 
             button2.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button2.Location = new Point(133, 536);
-            button2.Margin = new Padding(3, 4, 3, 4);
+            button2.Location = new Point(116, 402);
             button2.Name = "button2";
-            button2.Size = new Size(178, 48);
+            button2.Size = new Size(156, 36);
             button2.TabIndex = 12;
             button2.Text = "Cadastrar";
             button2.UseVisualStyleBackColor = true;
@@ -167,23 +161,25 @@
             // 
             // CadastroLivro
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(451, 600);
+            ClientSize = new Size(395, 450);
             Controls.Add(button2);
-            Controls.Add(listView1);
+            Controls.Add(listViewGeners);
             Controls.Add(button1);
             Controls.Add(label5);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(dateTimePicker1);
-            Controls.Add(textBox1);
-            Controls.Add(comboBox1);
-            Margin = new Padding(3, 4, 3, 4);
+            Controls.Add(txtBoxNumPag);
+            Controls.Add(txtBoxAuthor);
+            Controls.Add(dtTimeDate);
+            Controls.Add(txtBoxName);
+            Controls.Add(comboBoxGener);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
+            MinimizeBox = false;
             Name = "CadastroLivro";
             Text = "CadastroLivro";
             ResumeLayout(false);
@@ -192,18 +188,18 @@
 
         #endregion
 
-        private ComboBox comboBox1;
-        private TextBox textBox1;
-        private DateTimePicker dateTimePicker1;
-        private TextBox textBox2;
-        private TextBox textBox3;
+        private ComboBox comboBoxGener;
+        private TextBox txtBoxName;
+        private DateTimePicker dtTimeDate;
+        private TextBox txtBoxAuthor;
+        private TextBox txtBoxNumPag;
         private Label label1;
         private Label label2;
         private Label label3;
         private Label label4;
         private Label label5;
         private Button button1;
-        private ListView listView1;
+        private ListView listViewGeners;
         private Button button2;
     }
 }

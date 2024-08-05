@@ -21,5 +21,14 @@ namespace LivrariaSystem.models
         public string PostalCode { get; set; }
         
         public string Number { get; set; }
+
+
+        public override string ToString()
+        {
+            return  $"    [Street: {Street},\n" +
+                    $"    City: {City},\n" +
+                    $"    State: {State},\n" +
+                    $"    PostalCode: {PostalCode}]";
+        }
     }
 }

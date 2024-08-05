@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace LivrariaSystem.models
 {
-    public class Reader
+    public class Reader: User
     {
-
+        public List<Book> booksReceived = new List<Book>();
     }
 }

@@ -56,3 +56,6 @@ F:\faculdade\LivrariaSystem\LivrariaSystem\bin\Debug\net8.0-windows\LivrariaSyst
 F:\faculdade\LivrariaSystem\LivrariaSystem\bin\Debug\net8.0-windows\LivrariaSystem.pdb
 F:\faculdade\LivrariaSystem\LivrariaSystem\obj\Debug\net8.0-windows\LivrariaSystem.genruntimeconfig.cache
 F:\faculdade\LivrariaSystem\LivrariaSystem\obj\Debug\net8.0-windows\ref\LivrariaSystem.dll
+F:\faculdade\LivrariaSystem\LivrariaSystem\obj\Debug\net8.0-windows\LivrariaSystem.views.modal.CartaoLeitor.resources
+F:\faculdade\LivrariaSystem\LivrariaSystem\obj\Debug\net8.0-windows\LivrariaSystem.views.ConsultarEmprestimo.resources
+F:\faculdade\LivrariaSystem\LivrariaSystem\obj\Debug\net8.0-windows\LivrariaSystem.views.Form1.resources

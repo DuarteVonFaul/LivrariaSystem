@@ -92,7 +92,6 @@
             MinimizeBox = false;
             Name = "CartaoLeitor";
             Text = "Cartão Biblioteca";
-            Load += this.CartaoLeitor_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
