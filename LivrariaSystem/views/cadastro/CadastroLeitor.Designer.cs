@@ -203,7 +203,6 @@
             txtBoxPostalCode.Name = "txtBoxPostalCode";
             txtBoxPostalCode.Size = new Size(139, 27);
             txtBoxPostalCode.TabIndex = 9;
-            txtBoxPostalCode.TextChanged += txtBoxPostalCode_TextChanged;
             txtBoxPostalCode.KeyDown += txtBoxPostalCode_KeyDown;
             // 
             // label4
@@ -282,7 +281,6 @@
             MinimizeBox = false;
             Name = "CadastroLeitor";
             Text = "CadastroLeitor";
-            Load += CadastroLeitor_Load;
             ((System.ComponentModel.ISupportInitialize)bindingSource1).EndInit();
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();

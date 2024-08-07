@@ -8,24 +8,19 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\g_dua\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\SGE Desenvolvimento\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\faculdade\\LivrariaSystem\\LivrariaSystem\\LivrariaSystem.csproj",
+      "projectUniqueName": "C:\\Users\\SGE Desenvolvimento\\Desktop\\duarte\\new\\LivrariaSystem\\LivrariaSystem\\LivrariaSystem.csproj",
       "projectName": "LivrariaSystem",
-      "projectPath": "F:\\faculdade\\LivrariaSystem\\LivrariaSystem\\LivrariaSystem.csproj",
-      "packagesPath": "C:\\Users\\g_dua\\.nuget\\packages\\",
-      "outputPath": "F:\\faculdade\\LivrariaSystem\\LivrariaSystem\\obj\\",
+      "projectPath": "C:\\Users\\SGE Desenvolvimento\\Desktop\\duarte\\new\\LivrariaSystem\\LivrariaSystem\\LivrariaSystem.csproj",
+      "packagesPath": "C:\\Users\\SGE Desenvolvimento\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\SGE Desenvolvimento\\Desktop\\duarte\\new\\LivrariaSystem\\LivrariaSystem\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\g_dua\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\SGE Desenvolvimento\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -33,6 +28,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

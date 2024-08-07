@@ -8,6 +8,6 @@ namespace LivrariaSystem.models.response
 {
     public class AndressResponse
     {
-        public Andress? data {  get; set; }
+        public Address? data {  get; set; }
     }
 }

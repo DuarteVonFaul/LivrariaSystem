@@ -39,9 +39,10 @@
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.cartão;
-            pictureBox1.Location = new Point(25, 12);
+            pictureBox1.Location = new Point(29, 16);
+            pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(528, 312);
+            pictureBox1.Size = new Size(603, 416);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -51,9 +52,9 @@
             lbl_ID.AutoSize = true;
             lbl_ID.BackColor = Color.White;
             lbl_ID.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lbl_ID.Location = new Point(185, 265);
+            lbl_ID.Location = new Point(211, 353);
             lbl_ID.Name = "lbl_ID";
-            lbl_ID.Size = new Size(135, 25);
+            lbl_ID.Size = new Size(174, 32);
             lbl_ID.TabIndex = 1;
             lbl_ID.Text = "N. 0000000000";
             // 
@@ -62,9 +63,9 @@
             lbl_Nome.AutoSize = true;
             lbl_Nome.BackColor = Color.White;
             lbl_Nome.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lbl_Nome.Location = new Point(185, 229);
+            lbl_Nome.Location = new Point(211, 305);
             lbl_Nome.Name = "lbl_Nome";
-            lbl_Nome.Size = new Size(341, 25);
+            lbl_Nome.Size = new Size(433, 32);
             lbl_Nome.TabIndex = 2;
             lbl_Nome.Text = "Nome Ficticio Para testar o Component";
             // 
@@ -72,26 +73,29 @@
             // 
             pictureBox2.BackColor = Color.White;
             pictureBox2.Image = Properties.Resources.user;
-            pictureBox2.Location = new Point(376, 33);
+            pictureBox2.Location = new Point(430, 44);
+            pictureBox2.Margin = new Padding(3, 4, 3, 4);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(141, 145);
+            pictureBox2.Size = new Size(161, 193);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 3;
             pictureBox2.TabStop = false;
             // 
             // CartaoLeitor
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(586, 336);
+            ClientSize = new Size(670, 448);
             Controls.Add(pictureBox2);
             Controls.Add(lbl_Nome);
             Controls.Add(lbl_ID);
             Controls.Add(pictureBox1);
+            Margin = new Padding(3, 4, 3, 4);
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "CartaoLeitor";
             Text = "Cartão Biblioteca";
+            Load += CartaoLeitor_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);

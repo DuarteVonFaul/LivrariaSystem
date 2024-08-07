@@ -16,16 +16,16 @@ namespace LivrariaSystem.models
         public string PhoneNumber { get; set; }
         public string Email { get; set; } = string.Empty;
 
-        public Andress Address { get; set; } = new Andress();
+        public Address Address { get; set; } = new Address();
 
         public override string ToString()
         {
-            return $" User: [Id: {Id},\n " +
+            return $" Usuario: [Id: {Id},\n " +
                    $" Password: {Password},\n" +
-                   $" Name: {Name},\n" +
-                   $" PhoneNumber: {PhoneNumber},\n" +
+                   $" Nome: {Name},\n" +
+                   $" Numero de Telefone: {PhoneNumber},\n" +
                    $" Email: {Email},\n" +
-                   $" Address: {Address.ToString()}]";
+                   $" Endereço:\n {Address.ToString()}]";
         }
     }
 

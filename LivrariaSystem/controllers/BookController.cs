@@ -22,5 +22,10 @@ namespace LivrariaSystem.controllers
         {
             return service.searchById(id);
         }
+
+        public Book? GetBookByName(string name)
+        {
+            return service.searchByName(name);
+        }
     }
 }

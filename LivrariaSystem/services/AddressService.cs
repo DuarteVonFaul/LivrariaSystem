@@ -10,13 +10,13 @@ using System.Threading.Tasks;
 
 namespace LivrariaSystem.services
 {
-    public class AndressService
+    public class AddressService
     {
 
 
 
 
-        public Andress? searchAndressByPostalCode(Client client, string postalCode)
+        public Address? searchAndressByPostalCode(Client client, string postalCode)
         {
 
 

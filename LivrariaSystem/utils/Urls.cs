@@ -10,4 +10,8 @@ namespace LivrariaSystem.utils
     {
         public static string GET_POSTAL_CODE = "https://apifacil.dev/api/v1/guest/cep/";
     }
+
+
+
+    
 }

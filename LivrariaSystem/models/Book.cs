@@ -15,9 +15,6 @@ namespace LivrariaSystem.models
         public int count { get; set; }
         public string? Author { get; set; }
         public DateTime? Date { get; set; }
-        public DateTime? ReceivingDate { get; set; }
-        public DateTime? ReturnDate { get; set; }
-
         public List<string>? Genres { get; set; } = new List<string>();
 
 
@@ -25,16 +22,14 @@ namespace LivrariaSystem.models
         public override string ToString()
         {
             string genres = Genres != null && Genres.Count > 0 ? string.Join(", ", Genres) : "None";
-            return $"Book [Id: {Id},\n" +
-                   $" Title: {Title},\n" +
-                   $" Number of Pages: {NumberPag},\n" +
-                   $" Count: {count},\n" +
-                   $" Author: {Author},\n" +
-                   $" Date: {Date?.ToString("yyyy-MM-dd") ?? "N/A"},\n" +
-                   $" Receiving Date: {ReceivingDate?.ToString("yyyy-MM-dd") ?? "N/A"},\n" +
-                   $" Return Date: {ReturnDate?.ToString("yyyy-MM-dd") ?? "N/A"}, \n" +
-                   $"Genres:\n" +
-                   $" {genres}]";
+            return $"Livro -- Id: {Id},\n" +
+                   $" Titulo: {Title},\n" +
+                   $" Numero de Paginas: {NumberPag},\n" +
+                   $" Quantidade: {count},\n" +
+                   $" Autor: {Author},\n" +
+                   $" Data de lancamento: {Date?.ToString("yyyy-MM-dd") ?? "N/A"},\n" +
+                   $"Generos:\n" +
+                   $" {genres}";
         }
 
 

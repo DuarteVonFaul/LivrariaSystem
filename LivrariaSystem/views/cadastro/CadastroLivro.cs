@@ -42,7 +42,7 @@ namespace LivrariaSystem.views.cadastro
             }
             else
             {
-
+                book.Id = DataBase.books.Count + 1;
                 book.Title = txtBoxName.Text;
                 book.Author = txtBoxAuthor.Text;
                 book.NumberPag = Convert.ToInt32(txtBoxNumPag.Text);

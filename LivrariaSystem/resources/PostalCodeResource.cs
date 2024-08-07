@@ -15,7 +15,7 @@ namespace LivrariaSystem.resources
     {
 
 
-        public Andress? SearchPostalCodeByAPI(Client client, string postalCode)
+        public Address? SearchPostalCodeByAPI(Client client, string postalCode)
         {
 
             Get searchPostalCode = new Get(Urls.GET_POSTAL_CODE + postalCode);

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace LivrariaSystem.models
 {
-    public class Andress
+    public class Address
     {
         [JsonPropertyName("logradouro")]
         public string Street { get; set; }
@@ -25,10 +25,10 @@ namespace LivrariaSystem.models
 
         public override string ToString()
         {
-            return  $"    [Street: {Street},\n" +
-                    $"    City: {City},\n" +
-                    $"    State: {State},\n" +
-                    $"    PostalCode: {PostalCode}]";
+            return  $"    [Rua: {Street},\n" +
+                    $"    Cidade: {City},\n" +
+                    $"    Estado: {State},\n" +
+                    $"    CEP: {PostalCode}]";
         }
     }
 }

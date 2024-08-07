@@ -1,8 +1,11 @@
 ﻿using LivrariaSystem.controllers;
+using LivrariaSystem.database;
 using LivrariaSystem.models;
 using LivrariaSystem.models.response;
 using LivrariaSystem.Properties;
 using LivrariaSystem.resources;
+using LivrariaSystem.utils;
+using LivrariaSystem.views.modal;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -31,40 +34,44 @@ namespace LivrariaSystem.views.cadastro
 
             if (e.KeyCode == Keys.Enter)
             {
-                // Suprime o bip padrão do TextBox ao pressionar Enter
-                e.SuppressKeyPress = true;
+                txtBoxState.Enabled = true;
+                txtBoxStreet.Enabled = true;
+                txtBoxCity.Enabled = true;
 
-                Task.Run(() =>
-                {
-                    // Realize a operação de busca no thread de fundo
-                    var andress = controller.GetAndressByPostalCode(txtBoxPostalCode.Text);
-
-                    // Atualize a interface do usuário no thread principal
-                    this.Invoke(new Action(() =>
+                txtBoxState.Text = "";
+                txtBoxStreet.Text = "";
+                txtBoxCity.Text = "";
+                var task = new Task<Address?>(
+                    () =>
                     {
-                        if (andress != null)
-                        {
-                            txtBoxCity.Text = andress.City;
-                            txtBoxState.Text = andress.State;
-                            txtBoxStreet.Text = andress.Street;
-                        }
-                        else
-                        {
-                            // Handle the case where no address was found
-                            MessageBox.Show("Address not found.");
-                        }
-                    }));
-                });
+
+                        return controller.GetAndressByPostalCode(txtBoxPostalCode.Text);
+
+                    });
+                task.Start();
+                task.Wait();
+                var andress = task.Result;
+
+                if (andress != null)
+                {
+                    if (!String.IsNullOrEmpty(andress.State))
+                    {
+                        txtBoxState.Text = andress.State;
+                        txtBoxState.Enabled = false;
+                    }
+                    if (!String.IsNullOrEmpty(andress.Street))
+                    {
+                        txtBoxStreet.Text = andress.Street;
+                        txtBoxStreet.Enabled = false;
+                    }
+                    if (!String.IsNullOrEmpty(andress.City))
+                    {
+                        txtBoxCity.Text = andress.City;
+                        txtBoxCity.Enabled = false;
+                    }
+
+                }
             }
-
-
-
-
-        }
-
-        private void CadastroLeitor_Load(object sender, EventArgs e)
-        {
-
         }
 
         private void toolStripButton1_Click(object sender, EventArgs e)
@@ -86,6 +93,9 @@ namespace LivrariaSystem.views.cadastro
             else
             {
                 Reader user = new Reader();
+
+                user.Id = Convert.ToString(DataBase.readers.Count + 1).PadLeft(10,'0');
+                user.Password = Convert.ToString(PasswordGenerator.Generator());
                 user.Name = txtBoxFullName.Text;
                 user.Address.PostalCode = txtBoxPostalCode.Text;
                 user.Address.City = txtBoxCity.Text;
@@ -96,14 +106,12 @@ namespace LivrariaSystem.views.cadastro
                 user.PhoneNumber = txtBoxPhoneNumber.Text;
 
                 controller.createUserReader(user);
-                MessageBox.Show(user.ToString(), "Usuario Cadastrado com SUcesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
+                MessageBox.Show(user.ToString(), "Usuario Cadastrado com Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                
+                CartaoLeitor childForm = new CartaoLeitor(Convert.ToInt32(user.Id));
+                childForm.MdiParent = this.MdiParent; // Define o formulário pai
+                childForm.Show();
             }
-        }
-
-        private void txtBoxPostalCode_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

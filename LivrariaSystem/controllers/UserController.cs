@@ -25,12 +25,18 @@ namespace LivrariaSystem.controllers
             DataBase.readers.Add(user);
         }
 
-        public Andress? GetAndressByPostalCode(string postalCode) {
+        public Address? GetAndressByPostalCode(string postalCode) {
             
 
 
-            return new AndressService().searchAndressByPostalCode(DataBase.client, postalCode);
+            return new AddressService().searchAndressByPostalCode(DataBase.client, postalCode);
         
+        }
+
+
+        public Reader? GetUserReaderByID(string Id)
+        {
+            return DataBase.readers[Convert.ToInt32(Id) - 1];
         }
 
     }

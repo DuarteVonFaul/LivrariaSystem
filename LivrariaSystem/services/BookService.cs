@@ -23,7 +23,7 @@ namespace LivrariaSystem.services
         public Book searchById(string id)
         {
 
-            return DataBase.books[Convert.ToInt32(id)];
+            return DataBase.books[Convert.ToInt32(id) - 1];
 
         }
 

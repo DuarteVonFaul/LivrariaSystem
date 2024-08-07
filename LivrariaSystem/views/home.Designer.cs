@@ -34,22 +34,24 @@
             leitorToolStripMenuItem = new ToolStripMenuItem();
             movimentaçãoToolStripMenuItem = new ToolStripMenuItem();
             saidaToolStripMenuItem = new ToolStripMenuItem();
-            alugarLivroToolStripMenuItem = new ToolStripMenuItem();
             entradaToolStripMenuItem = new ToolStripMenuItem();
             pedidoDeCompraToolStripMenuItem = new ToolStripMenuItem();
             comprarLIvrosToolStripMenuItem = new ToolStripMenuItem();
             movimentaToolStripMenuItem = new ToolStripMenuItem();
             arcevoToolStripMenuItem = new ToolStripMenuItem();
             devolverLivroToolStripMenuItem = new ToolStripMenuItem();
+            alugarLivroToolStripMenuItem1 = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // menuStrip1
             // 
+            menuStrip1.ImageScalingSize = new Size(20, 20);
             menuStrip1.Items.AddRange(new ToolStripItem[] { cadastrarToolStripMenuItem, movimentaçãoToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(800, 24);
+            menuStrip1.Padding = new Padding(7, 3, 0, 3);
+            menuStrip1.Size = new Size(914, 30);
             menuStrip1.TabIndex = 1;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -57,20 +59,20 @@
             // 
             cadastrarToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { lIvroToolStripMenuItem, leitorToolStripMenuItem });
             cadastrarToolStripMenuItem.Name = "cadastrarToolStripMenuItem";
-            cadastrarToolStripMenuItem.Size = new Size(69, 20);
+            cadastrarToolStripMenuItem.Size = new Size(86, 24);
             cadastrarToolStripMenuItem.Text = "Cadastrar";
             // 
             // lIvroToolStripMenuItem
             // 
             lIvroToolStripMenuItem.Name = "lIvroToolStripMenuItem";
-            lIvroToolStripMenuItem.Size = new Size(180, 22);
+            lIvroToolStripMenuItem.Size = new Size(130, 26);
             lIvroToolStripMenuItem.Text = "LIvro";
             lIvroToolStripMenuItem.Click += lIvroToolStripMenuItem_Click;
             // 
             // leitorToolStripMenuItem
             // 
             leitorToolStripMenuItem.Name = "leitorToolStripMenuItem";
-            leitorToolStripMenuItem.Size = new Size(180, 22);
+            leitorToolStripMenuItem.Size = new Size(130, 26);
             leitorToolStripMenuItem.Text = "Leitor";
             leitorToolStripMenuItem.Click += leitorToolStripMenuItem_Click;
             // 
@@ -78,70 +80,70 @@
             // 
             movimentaçãoToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { saidaToolStripMenuItem, entradaToolStripMenuItem, movimentaToolStripMenuItem });
             movimentaçãoToolStripMenuItem.Name = "movimentaçãoToolStripMenuItem";
-            movimentaçãoToolStripMenuItem.Size = new Size(99, 20);
+            movimentaçãoToolStripMenuItem.Size = new Size(122, 24);
             movimentaçãoToolStripMenuItem.Text = "Movimentação";
             // 
             // saidaToolStripMenuItem
             // 
-            saidaToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { alugarLivroToolStripMenuItem });
             saidaToolStripMenuItem.Name = "saidaToolStripMenuItem";
-            saidaToolStripMenuItem.Size = new Size(180, 22);
+            saidaToolStripMenuItem.Size = new Size(224, 26);
             saidaToolStripMenuItem.Text = "Saida";
-            // 
-            // alugarLivroToolStripMenuItem
-            // 
-            alugarLivroToolStripMenuItem.Name = "alugarLivroToolStripMenuItem";
-            alugarLivroToolStripMenuItem.Size = new Size(180, 22);
-            alugarLivroToolStripMenuItem.Text = "Alugar Livro";
-            alugarLivroToolStripMenuItem.Click += alugarLivroToolStripMenuItem_Click;
             // 
             // entradaToolStripMenuItem
             // 
             entradaToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { pedidoDeCompraToolStripMenuItem, comprarLIvrosToolStripMenuItem });
             entradaToolStripMenuItem.Name = "entradaToolStripMenuItem";
-            entradaToolStripMenuItem.Size = new Size(180, 22);
+            entradaToolStripMenuItem.Size = new Size(224, 26);
             entradaToolStripMenuItem.Text = "Entrada";
             // 
             // pedidoDeCompraToolStripMenuItem
             // 
             pedidoDeCompraToolStripMenuItem.Name = "pedidoDeCompraToolStripMenuItem";
-            pedidoDeCompraToolStripMenuItem.Size = new Size(180, 22);
+            pedidoDeCompraToolStripMenuItem.Size = new Size(216, 26);
             pedidoDeCompraToolStripMenuItem.Text = "Pedido de Compra";
             // 
             // comprarLIvrosToolStripMenuItem
             // 
             comprarLIvrosToolStripMenuItem.Name = "comprarLIvrosToolStripMenuItem";
-            comprarLIvrosToolStripMenuItem.Size = new Size(180, 22);
+            comprarLIvrosToolStripMenuItem.Size = new Size(216, 26);
             comprarLIvrosToolStripMenuItem.Text = "Comprar LIvros";
             // 
             // movimentaToolStripMenuItem
             // 
             movimentaToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { arcevoToolStripMenuItem });
             movimentaToolStripMenuItem.Name = "movimentaToolStripMenuItem";
-            movimentaToolStripMenuItem.Size = new Size(180, 22);
+            movimentaToolStripMenuItem.Size = new Size(224, 26);
             movimentaToolStripMenuItem.Text = "Movimenta";
             // 
             // arcevoToolStripMenuItem
             // 
-            arcevoToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { devolverLivroToolStripMenuItem });
+            arcevoToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { devolverLivroToolStripMenuItem, alugarLivroToolStripMenuItem1 });
             arcevoToolStripMenuItem.Name = "arcevoToolStripMenuItem";
-            arcevoToolStripMenuItem.Size = new Size(111, 22);
+            arcevoToolStripMenuItem.Size = new Size(224, 26);
             arcevoToolStripMenuItem.Text = "Arcevo";
             // 
             // devolverLivroToolStripMenuItem
             // 
             devolverLivroToolStripMenuItem.Name = "devolverLivroToolStripMenuItem";
-            devolverLivroToolStripMenuItem.Size = new Size(180, 22);
-            devolverLivroToolStripMenuItem.Text = "Devolver Livro";
+            devolverLivroToolStripMenuItem.Size = new Size(224, 26);
+            devolverLivroToolStripMenuItem.Text = "Devolução Livro";
+            // 
+            // alugarLivroToolStripMenuItem1
+            // 
+            alugarLivroToolStripMenuItem1.Name = "alugarLivroToolStripMenuItem1";
+            alugarLivroToolStripMenuItem1.Size = new Size(224, 26);
+            alugarLivroToolStripMenuItem1.Text = "Alugar Livro";
+            alugarLivroToolStripMenuItem1.Click += alugarLivroToolStripMenuItem1_Click;
             // 
             // Home
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(914, 600);
             Controls.Add(menuStrip1);
             IsMdiContainer = true;
             MainMenuStrip = menuStrip1;
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Home";
             Text = "LivrariaSystem";
             Load += home_Load;
@@ -159,12 +161,12 @@
         private ToolStripMenuItem leitorToolStripMenuItem;
         private ToolStripMenuItem movimentaçãoToolStripMenuItem;
         private ToolStripMenuItem saidaToolStripMenuItem;
-        private ToolStripMenuItem alugarLivroToolStripMenuItem;
         private ToolStripMenuItem entradaToolStripMenuItem;
         private ToolStripMenuItem pedidoDeCompraToolStripMenuItem;
         private ToolStripMenuItem comprarLIvrosToolStripMenuItem;
         private ToolStripMenuItem movimentaToolStripMenuItem;
         private ToolStripMenuItem arcevoToolStripMenuItem;
         private ToolStripMenuItem devolverLivroToolStripMenuItem;
+        private ToolStripMenuItem alugarLivroToolStripMenuItem1;
     }
 }
