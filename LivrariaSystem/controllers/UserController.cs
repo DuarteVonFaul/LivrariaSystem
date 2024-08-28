@@ -1,18 +1,14 @@
 ﻿using LivrariaSystem.models;
 using LivrariaSystem.database;
 using LivrariaSystem.services;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace LivrariaSystem.controllers
 {
     public class UserController
     {
 
-
+        UserService service = new UserService();
 
         public Librarian createUserLibrarian(Librarian user)
         {
@@ -22,7 +18,7 @@ namespace LivrariaSystem.controllers
 
         public void createUserReader(Reader user)
         {
-            DataBase.readers.Add(user);
+            service.register(user);
         }
 
         public Address? GetAndressByPostalCode(string postalCode) {
@@ -34,9 +30,10 @@ namespace LivrariaSystem.controllers
         }
 
 
-        public Reader? GetUserReaderByID(string Id)
+
+        public User? GetUserReaderByID(string Id)
         {
-            return DataBase.readers[Convert.ToInt32(Id) - 1];
+            return service.searchById(Id);
         }
 
     }

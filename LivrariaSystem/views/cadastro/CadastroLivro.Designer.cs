@@ -41,40 +41,42 @@
             button1 = new Button();
             listViewGeners = new ListView();
             button2 = new Button();
+            txtCodigo = new TextBox();
+            label6 = new Label();
             SuspendLayout();
             // 
             // comboBoxGener
             // 
             comboBoxGener.FormattingEnabled = true;
-            comboBoxGener.Location = new Point(41, 211);
+            comboBoxGener.Location = new Point(41, 224);
             comboBoxGener.Name = "comboBoxGener";
             comboBoxGener.Size = new Size(180, 23);
             comboBoxGener.TabIndex = 0;
             // 
             // txtBoxName
             // 
-            txtBoxName.Location = new Point(41, 37);
+            txtBoxName.Location = new Point(138, 50);
             txtBoxName.Name = "txtBoxName";
-            txtBoxName.Size = new Size(307, 23);
+            txtBoxName.Size = new Size(210, 23);
             txtBoxName.TabIndex = 1;
             // 
             // dtTimeDate
             // 
-            dtTimeDate.Location = new Point(41, 149);
+            dtTimeDate.Location = new Point(41, 162);
             dtTimeDate.Name = "dtTimeDate";
             dtTimeDate.Size = new Size(180, 23);
             dtTimeDate.TabIndex = 2;
             // 
             // txtBoxAuthor
             // 
-            txtBoxAuthor.Location = new Point(41, 93);
+            txtBoxAuthor.Location = new Point(41, 106);
             txtBoxAuthor.Name = "txtBoxAuthor";
             txtBoxAuthor.Size = new Size(307, 23);
             txtBoxAuthor.TabIndex = 3;
             // 
             // txtBoxNumPag
             // 
-            txtBoxNumPag.Location = new Point(237, 149);
+            txtBoxNumPag.Location = new Point(237, 162);
             txtBoxNumPag.Name = "txtBoxNumPag";
             txtBoxNumPag.Size = new Size(111, 23);
             txtBoxNumPag.TabIndex = 4;
@@ -83,7 +85,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 12F);
-            label1.Location = new Point(41, 13);
+            label1.Location = new Point(138, 26);
             label1.Name = "label1";
             label1.Size = new Size(114, 21);
             label1.TabIndex = 5;
@@ -93,7 +95,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 12F);
-            label2.Location = new Point(41, 69);
+            label2.Location = new Point(41, 82);
             label2.Name = "label2";
             label2.Size = new Size(49, 21);
             label2.TabIndex = 6;
@@ -103,7 +105,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 12F);
-            label3.Location = new Point(41, 187);
+            label3.Location = new Point(41, 200);
             label3.Name = "label3";
             label3.Size = new Size(61, 21);
             label3.TabIndex = 7;
@@ -113,7 +115,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 12F);
-            label4.Location = new Point(237, 125);
+            label4.Location = new Point(237, 138);
             label4.Name = "label4";
             label4.Size = new Size(82, 21);
             label4.TabIndex = 8;
@@ -123,7 +125,7 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 12F);
-            label5.Location = new Point(41, 125);
+            label5.Location = new Point(41, 138);
             label5.Name = "label5";
             label5.Size = new Size(152, 21);
             label5.TabIndex = 9;
@@ -131,7 +133,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(237, 210);
+            button1.Location = new Point(237, 223);
             button1.Name = "button1";
             button1.Size = new Size(111, 23);
             button1.TabIndex = 10;
@@ -141,7 +143,7 @@
             // 
             // listViewGeners
             // 
-            listViewGeners.Location = new Point(41, 239);
+            listViewGeners.Location = new Point(41, 252);
             listViewGeners.Name = "listViewGeners";
             listViewGeners.Size = new Size(307, 139);
             listViewGeners.TabIndex = 11;
@@ -151,7 +153,7 @@
             // button2
             // 
             button2.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button2.Location = new Point(116, 402);
+            button2.Location = new Point(116, 408);
             button2.Name = "button2";
             button2.Size = new Size(156, 36);
             button2.TabIndex = 12;
@@ -159,11 +161,31 @@
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
+            // txtCodigo
+            // 
+            txtCodigo.Location = new Point(41, 50);
+            txtCodigo.Name = "txtCodigo";
+            txtCodigo.Size = new Size(90, 23);
+            txtCodigo.TabIndex = 13;
+            txtCodigo.KeyDown += textBox1_KeyDown;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("Segoe UI", 12F);
+            label6.Location = new Point(41, 26);
+            label6.Name = "label6";
+            label6.Size = new Size(60, 21);
+            label6.TabIndex = 14;
+            label6.Text = "Codigo";
+            // 
             // CadastroLivro
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(395, 450);
+            ClientSize = new Size(395, 484);
+            Controls.Add(label6);
+            Controls.Add(txtCodigo);
             Controls.Add(button2);
             Controls.Add(listViewGeners);
             Controls.Add(button1);
@@ -182,6 +204,7 @@
             MinimizeBox = false;
             Name = "CadastroLivro";
             Text = "CadastroLivro";
+            Load += CadastroLivro_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -201,5 +224,7 @@
         private Button button1;
         private ListView listViewGeners;
         private Button button2;
+        private TextBox txtCodigo;
+        private Label label6;
     }
 }

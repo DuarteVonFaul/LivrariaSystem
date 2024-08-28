@@ -1,10 +1,12 @@
 ﻿using LivrariaSystem.controllers;
 using LivrariaSystem.database;
 using LivrariaSystem.models;
+using LivrariaSystem.services;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.Metrics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -30,7 +32,7 @@ namespace LivrariaSystem.views.cadastro
         //AddGenero
         private void button2_Click(object sender, EventArgs e)
         {
-            
+
 
             if (String.IsNullOrEmpty(txtBoxName.Text) ||
                 String.IsNullOrEmpty(txtBoxAuthor.Text) ||
@@ -65,6 +67,46 @@ namespace LivrariaSystem.views.cadastro
             listViewGeners.Items.Add(comboBoxGener.Text);
 
 
+        }
+
+        private void CadastroLivro_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_KeyDown(object sender, KeyEventArgs e)
+        {
+
+            if (e.KeyCode == Keys.Enter)
+            {
+                txtBoxName.Text = "";
+                txtBoxAuthor.Text = "";
+                txtBoxNumPag.Text = "";
+                dtTimeDate.Text = "";
+                listViewGeners.Items.Clear();
+
+                var book = controller.GetBookById(txtCodigo.Text);
+                if(book != null)
+                {
+                    txtCodigo.Text = Convert.ToString(book.Id);
+                    txtBoxName.Text = book.Title;
+                    txtBoxAuthor.Text = book.Author;
+                    txtBoxNumPag.Text = Convert.ToString(book.NumberPag);
+                    dtTimeDate.Text = book.Date.ToString();
+                    foreach (string gener in book.Genres)
+                    {
+                        listViewGeners.Items.Add(gener);
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Livro não encontrado", "Not Found", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+
+                
+                
+                
+            }
         }
     }
 }

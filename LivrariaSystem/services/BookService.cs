@@ -1,4 +1,5 @@
-﻿using LivrariaSystem.database;
+﻿using LivrariaSystem.DAO;
+using LivrariaSystem.database;
 using LivrariaSystem.models;
 using System;
 using System.Collections.Generic;
@@ -11,20 +12,18 @@ namespace LivrariaSystem.services
 {
     public class BookService
     {
-
+        BookDAO bookDAO = new BookDAO();
 
 
         public void register(Book book)
         {
-            DataBase.books.Add(book);
+            bookDAO.InsertBook(book);
         }
 
 
-        public Book searchById(string id)
+        public Book? searchById(string id)
         {
-
-            return DataBase.books[Convert.ToInt32(id) - 1];
-
+            return bookDAO.GetBookById(Convert.ToInt32(id));
         }
 
         public Book searchByName(string name)

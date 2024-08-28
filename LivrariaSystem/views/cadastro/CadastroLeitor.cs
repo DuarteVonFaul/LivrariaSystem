@@ -6,6 +6,7 @@ using LivrariaSystem.Properties;
 using LivrariaSystem.resources;
 using LivrariaSystem.utils;
 using LivrariaSystem.views.modal;
+using Microsoft.VisualBasic.ApplicationServices;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -93,8 +94,6 @@ namespace LivrariaSystem.views.cadastro
             else
             {
                 Reader user = new Reader();
-
-                user.Id = Convert.ToString(DataBase.readers.Count + 1).PadLeft(10,'0');
                 user.Password = Convert.ToString(PasswordGenerator.Generator());
                 user.Name = txtBoxFullName.Text;
                 user.Address.PostalCode = txtBoxPostalCode.Text;
@@ -107,11 +106,51 @@ namespace LivrariaSystem.views.cadastro
 
                 controller.createUserReader(user);
                 MessageBox.Show(user.ToString(), "Usuario Cadastrado com Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                
-                CartaoLeitor childForm = new CartaoLeitor(Convert.ToInt32(user.Id));
-                childForm.MdiParent = this.MdiParent; // Define o formulário pai
-                childForm.Show();
+                ;
             }
+        }
+
+        private void txtCodigo_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+
+                txtBoxFullName.Text = "";
+                txtBoxPostalCode.Text = "";
+                txtBoxCity.Text = "";
+                txtBoxNumber.Text = "";
+                txtBoxState.Text = "";
+                txtBoxStreet.Text = "";
+                txtBoxMail.Text = "";
+                txtBoxPhoneNumber.Text = "";
+
+                var user = controller.GetUserReaderByID(txtCodigo.Text);
+
+                txtCodigo.Text = user.Id;
+                txtBoxFullName.Text = user.Name;
+                txtBoxPostalCode.Text = user.Address.PostalCode;
+                txtBoxCity.Text = user.Address.City;
+                txtBoxNumber.Text = user.Address.Number;
+                txtBoxState.Text = user.Address.State;
+                txtBoxStreet.Text = user.Address.Street;
+                txtBoxMail.Text = user.Email;
+                txtBoxPhoneNumber.Text = user.PhoneNumber;
+
+            }
+        }
+
+        private void toolStripButton3_Click(object sender, EventArgs e)
+        {
+            txtCodigo.Text = "";
+            txtBoxFullName.Text = "";
+            txtBoxPostalCode.Text = "";
+            txtBoxCity.Text = "";
+            txtBoxNumber.Text = "";
+            txtBoxState.Text = "";
+            txtBoxStreet.Text = "";
+            txtBoxMail.Text = "";
+            txtBoxPhoneNumber.Text = "";
+
         }
     }
 }

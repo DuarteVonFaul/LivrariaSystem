@@ -53,6 +53,8 @@
             toolStripButton2 = new ToolStripButton();
             toolStripSeparator2 = new ToolStripSeparator();
             toolStripButton3 = new ToolStripButton();
+            txtCodigo = new TextBox();
+            label8 = new Label();
             ((System.ComponentModel.ISupportInitialize)bindingSource1).BeginInit();
             groupBox1.SuspendLayout();
             toolStrip1.SuspendLayout();
@@ -60,16 +62,16 @@
             // 
             // txtBoxFullName
             // 
-            txtBoxFullName.Location = new Point(12, 81);
+            txtBoxFullName.Location = new Point(101, 81);
             txtBoxFullName.Name = "txtBoxFullName";
-            txtBoxFullName.Size = new Size(546, 23);
+            txtBoxFullName.Size = new Size(457, 23);
             txtBoxFullName.TabIndex = 0;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 12F);
-            label1.Location = new Point(12, 57);
+            label1.Location = new Point(101, 57);
             label1.Name = "label1";
             label1.Size = new Size(125, 21);
             label1.TabIndex = 1;
@@ -263,12 +265,33 @@
             toolStripButton3.Name = "toolStripButton3";
             toolStripButton3.Size = new Size(44, 44);
             toolStripButton3.Text = "toolStripButton3";
+            toolStripButton3.Click += toolStripButton3_Click;
+            // 
+            // txtCodigo
+            // 
+            txtCodigo.Location = new Point(12, 81);
+            txtCodigo.Name = "txtCodigo";
+            txtCodigo.Size = new Size(83, 23);
+            txtCodigo.TabIndex = 9;
+            txtCodigo.KeyDown += txtCodigo_KeyDown;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Font = new Font("Segoe UI", 12F);
+            label8.Location = new Point(12, 57);
+            label8.Name = "label8";
+            label8.Size = new Size(60, 21);
+            label8.TabIndex = 10;
+            label8.Text = "Codigo";
             // 
             // CadastroLeitor
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(575, 353);
+            Controls.Add(label8);
+            Controls.Add(txtCodigo);
             Controls.Add(toolStrip1);
             Controls.Add(groupBox1);
             Controls.Add(label3);
@@ -316,5 +339,7 @@
         private Label label4;
         private TextBox txtBoxNumber;
         private Label label9;
+        private TextBox txtCodigo;
+        private Label label8;
     }
 }

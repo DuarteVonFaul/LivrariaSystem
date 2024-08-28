@@ -75,12 +75,7 @@ namespace LivrariaSystem.views
         {
             if (e.KeyCode == Keys.Enter)
             {
-                user = userController.GetUserReaderByID(txtBoxCodUser.Text);
 
-                txtBoxCodUser.Text      = user.Id.ToString();
-                ttxtBoxNameUser.Text    = user.Name;
-                txtBoxNumberPhone.Text  = user.PhoneNumber;
-                txtBoxEmail.Text        = user.Email;
 
 
 
